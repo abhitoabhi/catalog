@@ -15,7 +15,7 @@ export default function ItemDetail() {
       <div className="detail-shell">
         <div className="detail-wrap">
           <Link to="/" className="back-btn">
-            ← Back
+            {"<"} Back
           </Link>
           <h1>Item not found</h1>
         </div>
@@ -27,7 +27,7 @@ export default function ItemDetail() {
     <div className="detail-shell">
       <div className="detail-wrap">
         <Link to="/" className="back-btn">
-          <span aria-hidden>←</span> Back to catalog
+          <span aria-hidden>{"<"}</span> Back to catalog
         </Link>
 
         <div className="detail-grid">
