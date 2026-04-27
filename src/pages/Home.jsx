@@ -1,4 +1,4 @@
-import { useEffect, useMemo } from "react";
+import { useMemo } from "react";
 import { ItemCard } from "../components/ItemCard";
 import { groupByCategory } from "../data/catalog";
 
