@@ -6,10 +6,6 @@ export default function ItemDetail() {
   const { slug } = useParams();
   const item = getItemBySlug(slug);
 
-  useEffect(() => {
-    if (item) document.title = `${item.itemname} — Catalog`;
-  }, [item]);
-
   if (!item) {
     return (
       <div className="detail-shell">
